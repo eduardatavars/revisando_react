@@ -66,8 +66,17 @@ h3 {
     margin: 0.5rem 0;
 }
 
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .flex > * {
     flex-grow: 1;
     display: block;
     margin-right: 1rem;
+}
+
+.aberto {
+    background: green;
 }
