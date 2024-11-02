@@ -9,7 +9,7 @@ const Compras = () => {
     }
     return (
     <div>
-        <h1>Compras</h1>
+        <h1>Comprass</h1>
         <button onClick={handleClick}>Comprar: {count}</button>
         <p>{count * 20}</p>
     </div>
