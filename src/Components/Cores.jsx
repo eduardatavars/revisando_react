@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 
 const Cores = () => {
     const [color, setColor] = useState("red");
@@ -8,6 +8,10 @@ const Cores = () => {
         width: "200px",
         height: "200px"
     };
+
+    useEffect(() => {
+        console.log("teste")
+    }, []);
 
 
   return (

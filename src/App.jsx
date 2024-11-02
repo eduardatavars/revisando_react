@@ -5,6 +5,7 @@ import Lista from "./Components/Lista";
 import Atributos from "./Components/Atributos";
 import Compras from "./Components/Compras";
 import Cores from "./Components/Cores";
+import Effect  from "./Components/Effect";
 
 const App = () => {
     return <div>
@@ -15,6 +16,7 @@ const App = () => {
         <Atributos />
         <Compras />
         <Cores />
+        <Effect />
     </div>
 };
 
